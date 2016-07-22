@@ -1,0 +1,71 @@
+html, body{
+		margin: 0%;
+		padding: 0%;
+		background: #fff;
+		color: rgb(0, 0, 0);
+		text-align: justify;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+		#box-left{
+		    float: left;
+		    width: 	49%;
+ 		}
+
+		.Chartjs{
+			font-size: 16px;
+		}
+		.inner1{	
+			float: left;
+		    width: 45%;
+		    display: block;	
+		}
+		.inner2{
+			margin-top:0;
+			padding-top: 0;
+			overflow: auto;
+			display: block;
+			width: 33%;
+			height: 100%;
+			float: left;
+		}
+		/*.google{
+			width: 300[x]
+		}*/
+		h3{
+			text-align: center;	
+		}
+		.inner5{
+			width: 100%;
+		}
+   	 	@media only screen and (max-width: 1400px) {
+			.innerLeft{
+				display: flex;
+				width: 100%;
+				float: left;
+				overflow: auto;
+			}
+			.inner1{
+			    width: 30%;
+			    margin-top: 0;
+			}
+			#box2{
+				width: 38%;
+			}
+			.inner2{
+				margin-bottom: 0;
+			}
+   	 	}
+   	 	@media only screen and (max-width: 1100px) {
+   	 		.inner1, #box2{
+   	 			width: 90%;
+				margin: 2% 5%;
+				float: none;
+				display: block;
+				overflow: auto;
+				border: none;
+   	 		}
+   	 		.innerLeft{
+   	 			display: block;
+   	 			width: 100%;
+   	 		}

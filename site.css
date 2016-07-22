@@ -1,0 +1,113 @@
+html, body{
+		margin: 0%;
+		padding: 0%;
+		overflow: hidden;
+	}
+		#box-left {
+		    float: left;
+		    width: 	49%;
+ 		}
+		#box-right {
+			width: 50%;
+		    float: right;
+		    overflow: hidden;
+		    height: 100%;
+		}
+		.Chartjs{
+			font-size: 16px;
+		}
+		.inner1{	
+			float: left;
+		    width: 30%;
+		    height: auto;	
+		}
+		#box2{
+			width: 58.5%; 
+		}
+		.inner2{
+			margin-top:0;
+			padding-top: 0;
+			overflow: auto;
+			display: block;
+			width: 33%;
+			height: 100%;
+			float: right;
+		}
+		.inner3{
+			margin-top: 0;
+			padding-top: 0;
+			width: 100%;
+			height: 100%;
+			margin-bottom: 0%;
+			display: block;
+		}
+		iframe{
+			width: 100%;
+		}
+		h1, p{
+			margin-top: 0;
+			margin-bottom: 0;
+		}		
+		.contain{
+			height: 100%;
+			width: 100%;
+		}
+		object{
+		   height: 300%;
+		   width: 100%;
+		   overflow: scroll;
+		}
+		#scr{
+			overflow: hidden;
+		}
+   	 	@media only screen and (max-width: 1400px) {
+			.innerLeft{
+				display: flex;
+				width: 100%;
+				float: left;
+				overflow: auto;
+			}
+			.innerRight{
+				width: 100%;
+				float: right;
+				display: flex;
+				overflow: auto;
+			}
+			.inner3{
+				width: 100%;
+				margin-bottom: 0;
+			}
+			.inner1{
+			    width: 30%;
+			    margin-top: 0;
+			}
+			#box2{
+				width: 38%;
+			}
+			.inner3 p{
+				margin-left: 10px;
+				column-count: initial;
+			}
+			.inner2{
+				margin-bottom: 0;
+			}
+   	 	}
+   	 	@media only screen and (max-width: 1100px) {
+   	 		.inner1, #box2, .inner2{
+   	 			width: 90%;
+				margin: 2% 5%;
+				float: none;
+				display: block;
+				overflow: auto;
+				border: none;
+   	 		}
+   	 		.innerLeft, .innerRight{
+   	 			display: block;
+   	 			width: 100%;
+   	 		}
+   	 		.inner3{
+   	 			width: 90%;
+   	 			margin-left: 5%;
+   	 			margin-top: 2%;
+   	 		}
+   	 	}

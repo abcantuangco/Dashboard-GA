@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<title></title>
+<script  src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<!-- data-require="jquery@1.10.1" data-semver="1.10.1" -->
+</head>
+<style type="text/css">
+
+body, html{
+   height: 100%;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-y: hidden;
+}
+object{
+   height: 300%;
+   width: 100%;
+   overflow: scroll;
+}
+
+#scr{
+  overflow: hidden;
+}
+</style>
+
+<body>
+<div id="scr">
+  <p id="content"></p>
+</div>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        $("#scr").css("height", screen.height);
+        $("#content").css("height", screen.height);
+      });
+  </script>
+<script type="text/javascript" src="scrollScripy.js"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+</body>
+</html>

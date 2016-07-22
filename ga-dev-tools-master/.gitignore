@@ -1,0 +1,21 @@
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# npm stuff
+node_modules
+npm-debug.log
+
+# python modules
+python_modules
+
+# Built files
+public/
+
+# Private keys
+service-account-key.json
